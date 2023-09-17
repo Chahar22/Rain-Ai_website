@@ -1,3 +1,7 @@
+# Deployment 
+
+Check the deployment :- https://dumyweb.netlify.app/
+
 # For resolvong issue on push
 
 Set to show hidden files in your pc and get access of .git folder.
