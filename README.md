@@ -1,9 +1,12 @@
 # For resolvong issue on push
 
-Set to show hidden files in your pc and get access of .git folder
-Delete .git folder
-Init again, make sure you have README.md file
-Now commit and push
+Set to show hidden files in your pc and get access of .git folder.
+
+Delete .git folder.
+
+Init again, make sure you have README.md file.
+
+Now commit and push.
 
 this steps will definitely work
 
