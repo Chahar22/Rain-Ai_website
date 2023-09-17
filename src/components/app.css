@@ -1,0 +1,149 @@
+/* Add styles to customize the button */
+
+.custom-button {
+    color: gray;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    color:aliceblue;
+    background-color: rgb(81, 127, 226);
+}
+
+/* Add more styles as needed */
+
+/* Media query for screens with a minimum width of 925 (typical for laptops) */
+@media (min-width: 769px) {
+    .image-container {
+        display: flex;
+        justify-content: center;
+        margin-top:5%;
+    }
+
+    .image-wrapper {
+
+        text-align: center;
+       /* Add margin around each image-wrapper */
+    }
+
+    .image {
+       width: 80%;
+       height: 321px;
+        /* Maintain image aspect ratio and crop if needed */
+    }
+
+    .image-description {
+         max-width: 75%;
+         text-align: left;
+         padding-left: 10%;
+    }
+
+    .body{
+        padding-left: 10%;
+    }
+}
+
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+    .image-container {
+        display: block;
+        margin-top: 5%;
+        /* Display images one per row in phone view */
+    }
+
+    .image-wrapper {
+        text-align: center;
+        margin: 10px auto;
+        /* Add margin to center the image and provide spacing */
+    }
+
+.image {
+    width: 90%;
+    height: 200px;
+    /* Maintain image aspect ratio and crop if needed */
+}
+
+.image-description {
+    max-width: 85%;
+    text-align: left;
+    padding-left: 4.5%;
+    /* Set maximum text width to 100% */
+}
+
+.body h1{
+    padding-top: 20%;
+}
+}
+
+h1{
+    padding-top:5%;
+    margin-bottom: 5%;
+    max-width: 400px;
+    text-align: left;
+    padding-left: 5%;
+}
+
+
+/* Add margin to the bottom of the content */
+.content {
+    margin-bottom: 40px;
+    /* Adjust the value to move the footer down */
+}
+
+/* Style the footer */
+.footer {
+    margin-top: 2%;
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+/* Center-align the text in the footer */
+.footer .MuiTypography-root {
+    text-align: center;
+}
+
+/* Style the social media icons */
+.footer .MuiIconButton-root {
+    margin: 0 10px;
+    /* Adjust the spacing between icons */
+}
+
+/* Style the quick links */
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+    /* Adjust the spacing between links */
+}
+
+.body{
+    background-color: #FAFAFA;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.body1 h1{
+    padding-left: 0%;
+}
+.body1 {
+    color:rgb(248, 240, 240);
+    background-color: rgb(118, 171, 240);
+    transition: background-color 1s ease-in-out;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+p{
+    max-width: 300px;
+}
